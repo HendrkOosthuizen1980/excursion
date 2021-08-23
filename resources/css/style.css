@@ -28,6 +28,24 @@ body {
   font-size: 0.7rem;
 }
 
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 23rem;
+}
+
+.feature__title {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.feature__camp {
+  width: 23rem;
+  height: 17rem;
+}
+
 @media (min-width: 40rem) {
   .intro {
     display: flex;
