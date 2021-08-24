@@ -10,7 +10,8 @@ body {
   background-color: #000;
 }
 
-.intro {
+.intro,
+.feature {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,25 +24,24 @@ body {
   font-size: 1.5rem;
 }
 
-.intro__cta {
-  color: aquamarine;
+.intro-cta,
+.coming__soon-cta {
   font-size: 0.7rem;
+}
+
+a,
+a:hover,
+a:active {
+  color: aquamarine;
 }
 
 .intro__video {
   width: 20rem;
-  height: 40rem;
+  height: 35rem;
 }
 
-.feature {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 23rem;
-}
-
-.feature__title {
+.feature__title,
+.coming__soon__title {
   color: #fff;
   text-align: center;
   font-size: 1.2rem;
@@ -58,17 +58,29 @@ body {
   height: 17rem;
 }
 
+.coming__soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 23rem;
+}
+
+.coming__soon__phone {
+  margin-top: 2rem;
+}
+
+.copyright {
+  color: gray;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
 @media (min-width: 40rem) {
-  .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 23rem;
-  }
   .intro__title {
     font-size: 3rem;
   }
-  .intro__cta {
+  .intro-cta,
+  .coming__soon-cta {
     font-size: 1rem;
   }
 
@@ -77,7 +89,8 @@ body {
     height: 45rem;
   }
 
-  .feature__title {
+  .feature__title,
+  .coming__soon__title {
     /* color: #fff;
     text-align: center; */
     font-size: 2.5rem;
@@ -91,5 +104,8 @@ body {
   .feature__camp {
     width: 56rem;
     height: 33rem;
+  }
+  .copyright {
+    font-size: 1.5rem;
   }
 }
