@@ -28,10 +28,16 @@ body {
   font-size: 0.7rem;
 }
 
+.intro__video {
+  width: 20rem;
+  height: 40rem;
+}
+
 .feature {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   min-width: 23rem;
 }
 
@@ -58,5 +64,27 @@ body {
   }
   .intro__cta {
     font-size: 1rem;
+  }
+
+  .intro__video {
+    width: 25rem;
+    height: 45rem;
+  }
+  /* .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 23rem;
+  } */
+
+  .feature__title {
+    /* color: #fff;
+    text-align: center; */
+    font-size: 2.5rem;
+  }
+
+  .feature__camp {
+    width: 56rem;
+    height: 33rem;
   }
 }
