@@ -36,7 +36,7 @@ body {
 .feature {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   min-width: 23rem;
 }
@@ -45,6 +45,12 @@ body {
   color: #fff;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.features {
+  color: gray;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .feature__camp {
@@ -70,17 +76,16 @@ body {
     width: 25rem;
     height: 45rem;
   }
-  /* .feature {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    min-width: 23rem;
-  } */
 
   .feature__title {
     /* color: #fff;
     text-align: center; */
     font-size: 2.5rem;
+    font-weight: 300;
+  }
+
+  .features {
+    font-size: 1.3rem;
   }
 
   .feature__camp {
